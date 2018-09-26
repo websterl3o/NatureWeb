@@ -1,0 +1,145 @@
+.top-left {
+    position: fixed;
+    right: 0px;
+    top: 18px;
+}
+
+.carousel-box{
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 25%;
+}
+
+.img-bg {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    height:100vh;
+}
+
+.textura-de-pontos{
+    background: url(/img/bg-texture-00.svg);
+}
+
+.fixo-topo{
+    position: fixed;top: 0px;z-index: 0;
+}
+
+
+.box-center{
+    width: 70vh;
+    height: 70vh;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+    padding: 25px;
+}
+
+.box-auth{
+    width: 70vh;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+}
+
+.box-auth-head{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 5.1rem;
+    position: relative;
+    padding: 0;
+    padding: 0 2.2rem;
+}
+
+.box-auth-head-caption-title-h3{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.box-auth-head-caption-title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+
+.box-auth .box-auth-head{
+    border-bottom: 1px solid #ebedf2;
+}
+
+.box-auth-body{
+    padding: 2rem 2.2rem 2.2rem;
+}
+
+.position-menu-left{
+    position: fixed;
+    text-align: end;
+    top: 0px;
+    z-index: 1;
+    padding: 20px 5px;
+    background: #00000036;
+}
+
+footer.main {
+    background: #fafafa;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+footer.main p {
+    color: #aeaeae;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+footer .links{
+    padding: 15px;
+}
+
+.botao-laravel{
+    color: #fff;
+    background-color: #f6635b;
+    border-color: #f6635b;
+}
+
+.content {
+    text-align: center;
+}
