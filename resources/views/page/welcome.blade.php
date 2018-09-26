@@ -85,64 +85,95 @@
         <div class="slide">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleSlidesOnly" data-slide-to="0" ></li>
-                    <li data-target="#carouselExampleSlidesOnly" data-slide-to="1" class="active"></li>
+                    <li data-target="#carouselExampleSlidesOnly" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleSlidesOnly" data-slide-to="1"></li>
                     <li data-target="#carouselExampleSlidesOnly" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleSlidesOnly" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleSlidesOnly" data-slide-to="4"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <img class="d-block img-bg" src="img/slide1.jpg" alt="First slide">
+                    <div class="carousel-item active">
+                        <img class="d-block img-bg" src="img/slide0.jpg" alt="First slide">
                         <div class="carousel-box">
                             <div class="title m-b-md">
-                                <span style="color:#f4645f">#</span> Laravel
+                                <span class="laraColor">#</span> Laravel
                             </div>
                             <div class="links">
                                 <a href="#Documentation">
-                                    <span style="color:#f4645f">#</span> Documentation
+                                    <span class="laraColor">#</span> Documentation
                                 </a>
                                 <a href="#Laracasts">
-                                    <span style="color:#f4645f">#</span> Laracasts
+                                    <span class="laraColor">#</span> Laracasts
                                 </a>
                                 <a href="#News">
-                                    <span style="color:#f4645f">#</span> News
+                                    <span class="laraColor">#</span> News
                                 </a>
                                 <a href="#Nova">
-                                    <span style="color:#f4645f">#</span> Nova
+                                    <span class="laraColor">#</span> Nova
                                 </a>
                                 <a href="#Forge">
-                                    <span style="color:#f4645f">#</span> Forge
+                                    <span class="laraColor">#</span> Forge
                                 </a>
                                 <a href="#GitHub">
-                                    <span style="color:#f4645f">#</span> GitHub
+                                    <span class="laraColor">#</span> GitHub
                                 </a>
                             </div>
                         </div>
                         <div class="img-bg textura-de-pontos fixo-topo" style=""></div>
                     </div>
-                    <div class="carousel-item  active">
-                        <img class="d-block img-bg" src="img/slide2.jpg" alt="First slide">
+                    <div class="carousel-item">
+                        <img class="d-block img-bg" src="img/slide1.jpg" alt="First slide">
                         <div class="carousel-box">
                             <div class="title m-b-md">
-                                <span style="color:#f4645f">#</span> Laravel
+                                <span class="laraColor">#</span> Laravel
                             </div>
                             <div class="links">
                                 <a href="#Documentation">
-                                    <span style="color:#f4645f">#</span> Documentation
+                                    <span class="laraColor">#</span> Documentation
                                 </a>
                                 <a href="#Laracasts">
-                                    <span style="color:#f4645f">#</span> Laracasts
+                                    <span class="laraColor">#</span> Laracasts
                                 </a>
                                 <a href="#News">
-                                    <span style="color:#f4645f">#</span> News
+                                    <span class="laraColor">#</span> News
                                 </a>
                                 <a href="#Nova">
-                                    <span style="color:#f4645f">#</span> Nova
+                                    <span class="laraColor">#</span> Nova
                                 </a>
                                 <a href="#Forge">
-                                    <span style="color:#f4645f">#</span> Forge
+                                    <span class="laraColor">#</span> Forge
                                 </a>
                                 <a href="#GitHub">
-                                    <span style="color:#f4645f">#</span> GitHub
+                                    <span class="laraColor">#</span> GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img-bg textura-de-pontos fixo-topo" style=""></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-bg" src="img/slide2.jpg" alt="First slide">
+                        <div class="carousel-box">
+                            <div class="title m-b-md">
+                                <span class="laraColor">#</span> Laravel
+                            </div>
+                            <div class="links">
+                                <a href="#Documentation">
+                                    <span class="laraColor">#</span> Documentation
+                                </a>
+                                <a href="#Laracasts">
+                                    <span class="laraColor">#</span> Laracasts
+                                </a>
+                                <a href="#News">
+                                    <span class="laraColor">#</span> News
+                                </a>
+                                <a href="#Nova">
+                                    <span class="laraColor">#</span> Nova
+                                </a>
+                                <a href="#Forge">
+                                    <span class="laraColor">#</span> Forge
+                                </a>
+                                <a href="#GitHub">
+                                    <span class="laraColor">#</span> GitHub
                                 </a>
                             </div>
                         </div>
@@ -152,26 +183,55 @@
                         <img class="d-block img-bg" src="img/slide3.jpg" alt="First slide">
                         <div class="carousel-box">
                             <div class="title m-b-md">
-                                <span style="color:#f4645f">#</span> Laravel
+                                <span class="laraColor">#</span> Laravel
                             </div>
                             <div class="links">
                                 <a href="#Documentation">
-                                    <span style="color:#f4645f">#</span> Documentation
+                                    <span class="laraColor">#</span> Documentation
                                 </a>
                                 <a href="#Laracasts">
-                                    <span style="color:#f4645f">#</span> Laracasts
+                                    <span class="laraColor">#</span> Laracasts
                                 </a>
                                 <a href="#News">
-                                    <span style="color:#f4645f">#</span> News
+                                    <span class="laraColor">#</span> News
                                 </a>
                                 <a href="#Nova">
-                                    <span style="color:#f4645f">#</span> Nova
+                                    <span class="laraColor">#</span> Nova
                                 </a>
                                 <a href="#Forge">
-                                    <span style="color:#f4645f">#</span> Forge
+                                    <span class="laraColor">#</span> Forge
                                 </a>
                                 <a href="#GitHub">
-                                    <span style="color:#f4645f">#</span> GitHub
+                                    <span class="laraColor">#</span> GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img-bg textura-de-pontos fixo-topo" style=""></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-bg" src="img/slide4.jpg" alt="First slide">
+                        <div class="carousel-box">
+                            <div class="title m-b-md">
+                                <span class="laraColor">#</span> Laravel
+                            </div>
+                            <div class="links">
+                                <a href="#Documentation">
+                                    <span class="laraColor">#</span> Documentation
+                                </a>
+                                <a href="#Laracasts">
+                                    <span class="laraColor">#</span> Laracasts
+                                </a>
+                                <a href="#News">
+                                    <span class="laraColor">#</span> News
+                                </a>
+                                <a href="#Nova">
+                                    <span class="laraColor">#</span> Nova
+                                </a>
+                                <a href="#Forge">
+                                    <span class="laraColor">#</span> Forge
+                                </a>
+                                <a href="#GitHub">
+                                    <span class="laraColor">#</span> GitHub
                                 </a>
                             </div>
                         </div>
@@ -187,14 +247,14 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <div class="">
+            <div class="menu">
                 @if (Route::has('login'))
                     <div class="top-left links w-100 position-menu-left">
                         @auth
                             <a href="{{ url('/home') }}">Home</a>
                         @else
-                            <a href="{{ route('login') }}">Login</a>
-                            <a href="{{ route('register') }}">Register</a>
+                            <a class="sliding-middle-out" href="{{ route('login') }}">Login</a>
+                            <a class="sliding-middle-out" href="{{ route('register') }}">Registro</a>
                         @endauth
                     </div>
                 @endif
@@ -204,92 +264,92 @@
             
             <div class="content">
                 <div class="title m-b-md">
-                    <span style="color:#f4645f">#</span> Laravel
+                    <span class="laraColor">#</span> Laravel
                 </div>
             </div>
            
             <div class="row">
                 <div class="col-md-4 p-4">
-                    <a id="Documentation" href="https://laravel.com/docs/5.7" class="font-uppercase pl-3 pr-3" title="Clique para ir direto a pagina!">
-                        <span style="color:#f4645f">#</span> Documentation
+                    <a target="_blank" id="Documentation" href="https://laravel.com/docs/5.7" class="font-uppercase pl-3 pr-3 link-lista sliding-middle-out" title="Clique para ir direto a pagina!">
+                        <span class="laraColor">#</span> Documentation
                     </a>
                     <div class="p-4" style="text-align: justify;">
-                        <a href="https://laravel.com/docs/5.7">
+                        <a target="_blank" href="https://laravel.com/docs/5.7">
                             <img src="img/InstallationLaravelThePHPFrameworkForWebArtisans.png" class="w-100">
                         </a>
                         {{-- <iframe src="https://laravel.com/docs/5.7" class="w-100"></iframe> --}}
                     </div>
-                    <a href="https://laravel.com/docs/5.7">
+                    <a target="_blank" href="https://laravel.com/docs/5.7">
                         <button type="button" class="btn btn-primary botao-laravel w-100">Abrir Site</button>
                     </a>
                 </div>
                 <div class="col-md-4 p-4">
-                    <a id="Laracasts" href="https://laracasts.com" class="font-uppercase pl-3 pr-3" title="Clique para ir direto a pagina!">
-                        <span style="color:#f4645f">#</span> Laracasts
+                    <a target="_blank" id="Laracasts" href="https://laracasts.com" class="font-uppercase pl-3 pr-3 link-lista sliding-middle-out" title="Clique para ir direto a pagina!">
+                        <span class="laraColor">#</span> Laracasts
                     </a>
                     <div class="p-4" style="text-align: justify;">
-                        <a href="https://laracasts.com">
+                        <a target="_blank" href="https://laracasts.com">
                             <img src="img/TheBestLaravelandPHPScreencasts.png" class="w-100">
                         </a>
                         {{-- <iframe src="https://laracasts.com" class="w-100"></iframe> --}}
                     </div>
-                    <a hrs" href="https://laracasts.com">
+                    <a target="_blank" hrs" href="https://laracasts.com">
                         <button type="button" class="btn btn-primary botao-laravel w-100">Abrir Site</button>
                     </a>
                 </div>
                 <div class="col-md-4 p-4">
-                    <a id="News" href="https://laravel-news.com" class="font-uppercase pl-3 pr-3" title="Clique para ir direto a pagina!">
-                        <span style="color:#f4645f">#</span> News
+                    <a target="_blank" id="News" href="https://laravel-news.com" class="font-uppercase pl-3 pr-3 link-lista sliding-middle-out" title="Clique para ir direto a pagina!">
+                        <span class="laraColor">#</span> News
                     </a>
                     <div class="p-4" style="text-align: justify;">
-                        <a href="https://laravel-news.com">
+                        <a target="_blank" href="https://laravel-news.com">
                             <img src="img/LaravelNews.png" class="w-100">
                         </a>
                         {{-- <iframe src="https://laravel-news.com" class="w-100"></iframe> --}}
                     </div>
-                    <a href="https://laravel-news.com">
+                    <a target="_blank" href="https://laravel-news.com">
                         <button type="button" class="btn btn-primary botao-laravel w-100">Abrir Site</button>
                     </a>
                 </div>
                 <div class="col-md-4 p-4">
-                    <a id="Nova" href="https://nova.laravel.com" class="font-uppercase pl-3 pr-3" title="Clique para ir direto a pagina!">
-                        <span style="color:#f4645f">#</span> Nova
+                    <a target="_blank" id="Nova" href="https://nova.laravel.com" class="font-uppercase pl-3 pr-3 link-lista sliding-middle-out" title="Clique para ir direto a pagina!">
+                        <span class="laraColor">#</span> Nova
                     </a>
                     <div class="p-4" style="text-align: justify;">
-                        <a href="https://nova.laravel.com">
+                        <a target="_blank" href="https://nova.laravel.com">
                             <img src="img/LaravelNovaBeautifullydesignedadministrationpanelforLaravel.png" class="w-100">
                         </a>
                         {{-- <iframe src="https://nova.laravel.com" class="w-100"></iframe> --}}
                     </div>
-                    <a href="https://nova.laravel.com">
+                    <a target="_blank" href="https://nova.laravel.com">
                         <button type="button" class="btn btn-primary botao-laravel w-100">Abrir Site</button>
                     </a>
                 </div>
                 <div class="col-md-4 p-4">
-                    <a id="Forge" href="https://forge.laravel.com" class="font-uppercase pl-3 pr-3" title="Clique para ir direto a pagina!">
-                        <span style="color:#f4645f">#</span> Forge
+                    <a target="_blank" id="Forge" href="https://forge.laravel.com" class="font-uppercase pl-3 pr-3 link-lista sliding-middle-out" title="Clique para ir direto a pagina!">
+                        <span class="laraColor">#</span> Forge
                     </a>
                     <div class="p-4" style="text-align: justify;">
-                        <a href="https://forge.laravel.com">
+                        <a target="_blank" href="https://forge.laravel.com">
                             <img src="img/LaravelForgeInstantPHPServers.png" class="w-100">
                         </a>
                         {{-- <iframe src="https://forge.laravel.com" class="w-100"></iframe> --}}
                     </div>
-                    <a href="https://forge.laravel.com">
+                    <a target="_blank" href="https://forge.laravel.com">
                         <button type="button" class="btn btn-primary botao-laravel w-100">Abrir Site</button>
                     </a>
                 </div>
                 <div class="col-md-4 p-4">
-                    <a id="GitHub" href="https://github.com/laravel/laravel" class="font-uppercase pl-3 pr-3" title="Clique para ir direto a pagina!">
-                        <span style="color:#f4645f">#</span> GitHub
+                    <a target="_blank" id="GitHub" href="https://github.com/laravel/laravel" class="font-uppercase pl-3 pr-3 link-lista sliding-middle-out" title="Clique para ir direto a pagina!">
+                        <span class="laraColor">#</span> GitHub
                     </a>
                     <div class="p-4" style="text-align: justify;">
-                        <a href="https://github.com/laravel/laravel">
+                        <a target="_blank" href="https://github.com/laravel/laravel">
                             <img src="img/laravelAPHPframeworkforwebartisans.png" class="w-100">
                         </a>
                         {{-- <iframe src="https://github.com/laravel/laravel" class="w-100"></iframe> --}}
                     </div>
-                    <a href="https://github.com/laravel/laravel">
+                    <a target="_blank" href="https://github.com/laravel/laravel">
                         <button type="button" class="btn btn-primary botao-laravel w-100">Abrir Site</button>
                     </a>
                 </div>
@@ -300,28 +360,28 @@
             <div class="links">
                 <div class="links">
                     <a href="#Documentation">
-                        <span style="color:#f4645f">#</span> Documentation
+                        <span class="laraColor">#</span> Documentation
                     </a>
                     <a href="#Laracasts">
-                        <span style="color:#f4645f">#</span> Laracasts
+                        <span class="laraColor">#</span> Laracasts
                     </a>
                     <a href="#News">
-                        <span style="color:#f4645f">#</span> News
+                        <span class="laraColor">#</span> News
                     </a>
                     <a href="#Nova">
-                        <span style="color:#f4645f">#</span> Nova
+                        <span class="laraColor">#</span> Nova
                     </a>
                     <a href="#Forge">
-                        <span style="color:#f4645f">#</span> Forge
+                        <span class="laraColor">#</span> Forge
                     </a>
                     <a href="#GitHub">
-                        <span style="color:#f4645f">#</span> GitHub
+                        <span class="laraColor">#</span> GitHub
                     </a>
                 </div>
             </div>
             <p>Pagina Home Laravel</p>
             <p class="less-significant">
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=leonardowebster15@gmail.com">
+                <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=leonardowebster15@gmail.com">
                     Designed by<br>
                     Leonardo Webster R. Silva
                 </a>

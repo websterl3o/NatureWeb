@@ -16,6 +16,12 @@
     top: 25%;
 }
 
+.botao-laravel:hover {
+    color: #fff;
+    background-color: #ec453c;
+    border-color: #ec453c;
+}
+
 .img-bg {
     object-fit: cover;
     width: 100%;
@@ -107,6 +113,70 @@
 
 .box-auth-body{
     padding: 2rem 2.2rem 2.2rem;
+}
+
+.laraColor{
+    color:#f4645f;
+}
+
+.carousel-box .title.m-b-md span.laraColor {
+    background: #fff;
+    color: #f4645f;
+    padding: 0px 32px;
+    border-radius: 60px;
+    -webkit-box-shadow: 3px 4px 5px 0px #000;
+    -moz-box-shadow: 3px 4px 5px 0px #000;
+    box-shadow: 3px 4px 5px 0px #000;
+}
+
+.menu.sliding-middle-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.menu.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.menu.sliding-middle-out:hover:after {
+    width: 100%;
+    background: #fff;
+}
+
+.link-lista.sliding-middle-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+.link-lista.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.link-lista.sliding-middle-out:hover:after {
+    width: 100%;
+    background: #f6635b;
+}
+
+.carousel-item .carousel-box .links a {
+    background: #fff;
+    color: #333;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 50px;
+    -webkit-box-shadow: 2px 3px 4px 0px #000;
+    -moz-box-shadow: 2px 3px 4px 0px #000;
+    box-shadow: 2px 3px 4px 0px #000;
 }
 
 .position-menu-left{
