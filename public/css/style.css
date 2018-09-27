@@ -323,6 +323,10 @@ a.item-menu{
     color: #fff;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+    max-width: 200px;
+}
+
 .menu .logo a{
     text-decoration: none;
 }
