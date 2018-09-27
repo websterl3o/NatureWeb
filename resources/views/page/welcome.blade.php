@@ -18,6 +18,11 @@
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
         <style>
+
+            .content {
+                text-align: center;
+            }
+
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -51,15 +56,6 @@
                 font-size: 84px;
             }
 
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
             .m-b-md {
                 margin-bottom: 30px;
             }
@@ -249,16 +245,55 @@
             </div>
             <div class="menu">
                 @if (Route::has('login'))
-                    <div class="top-left links w-100 position-menu-left">
-                        @auth
-                            <a href="{{ url('/home') }}">Home</a>
-                        @else
-                            <a class="sliding-middle-out" href="{{ route('login') }}">Login</a>
-                            <a class="sliding-middle-out" href="{{ route('register') }}">Registro</a>
-                        @endauth
+                    <div class="row row-simples">
+                        <div class="col-md-2 links w-100 position-menu-left logo" style="text-align: center;">
+                            <a class="sliding-middle-out item-menu" style="font-size: 31pt;text-transform: initial;" href="{{ url('/home') }}">(='X'=)</a>
+                        </div>
+                        <div class="col-md-8 links w-100 position-menu-left menu-item">
+                            <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                            <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                            <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                            <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                            <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                            <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                            <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                        </div>
+                        <div class="col-md-2 links w-100 position-menu-left dropdown-menu-item">
+                            <div class="btn-group" role="group">
+                                <button id="user-id-button" type="button" class="btn btn-secondary dropdown-toggle especial-button-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="{{Gravatar::get(Auth::user()->email)}}" class="m--img-rounded m--marginless user-pic" alt=""/>
+                                    <span class="user-details menu-item">
+                                        {{ Auth::user()->name }}
+                                    </span>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="user-id-button">
+                                    <a class="dropdown-item" href="#">Configurações</a>
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Sair') }}
+                                    </a>
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 @endif
             </div>
+            {{-- <div class="menu">
+                @if (Route::has('login'))
+                    <div class="top-left links w-100 position-menu-left">
+                        @auth
+                            <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">Home</a>
+                        @else
+                            <a class="sliding-middle-out item-menu" href="{{ route('login') }}">Login</a>
+                            <a class="sliding-middle-out item-menu" href="{{ route('register') }}">Registro</a>
+                        @endauth
+                    </div>
+                @endif
+            </div> --}}
         </div>
         <div class="p-lg-5 mt-3" style="color: #000;">
             
@@ -382,8 +417,7 @@
             <p>Pagina Home Laravel</p>
             <p class="less-significant">
                 <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=leonardowebster15@gmail.com">
-                    Designed by<br>
-                    Leonardo Webster R. Silva
+                    Designed by Leonardo Webster R. Silva
                 </a>
             </p>
         </footer>

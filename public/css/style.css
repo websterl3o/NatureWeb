@@ -148,6 +148,61 @@
     background: #fff;
 }
 
+.user-pic{
+    border-radius: 60px;
+    width: 45px;
+}
+
+.menu-interno .user-details {
+    color: #fff;
+}
+
+.links.w-100.position-menu-left.logo {
+    text-align: left;
+}
+
+.row-simples {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.dropdown-menu-item {
+    padding: 0px;
+}
+
+.dropdown-menu-item .btn-group {
+    width: 100%;
+}
+
+.dropdown-menu-item .btn-group .especial-button-dropdown {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.menu-interno .row-simples {
+    text-align: end;
+    top: 0px;
+    z-index: 1;
+    /*padding: 20px 5px;*/
+    background: #212529;
+}
+
+.menu-item {
+    padding: 22px 5px;
+}
+
+.dropdown-menu-item .btn-group .dropdown-menu{
+    position: absolute;
+    will-change: transform;
+    width: 100%;
+    border-radius: 0px;
+    top: -2px;
+    left: 5px;
+    transform: translate3d(-5px, 67px, 0px);
+}
+
 .link-lista.sliding-middle-out {
     display: inline-block;
     position: relative;
@@ -179,13 +234,49 @@
     box-shadow: 2px 3px 4px 0px #000;
 }
 
-.position-menu-left{
+.menu.top-left.links.w-100.position-menu-left {
+    position: relative;
+    text-align: end;
+    top: 0px;
+    z-index: 1;
+    padding: 20px 5px;
+    background: #00000036;
+}
+
+.content{
+    margin-top: 60px;
+}
+
+/*.menu .position-menu-left{
     position: fixed;
     text-align: end;
     top: 0px;
     z-index: 1;
     padding: 20px 5px;
     background: #00000036;
+}*/
+
+.menu {
+    position: fixed;
+    text-align: end;
+    top: 0px;
+    z-index: 1;
+    background: #00000036;
+    width: 100vw;
+}
+
+.links > a {
+    color: #fff;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#app .menu .position-menu-left{
+    background:#212529;
 }
 
 footer.main {
@@ -210,6 +301,6 @@ footer .links{
     border-color: #f6635b;
 }
 
-.content {
-    text-align: center;
+a.item-menu{
+    color: #fff;
 }

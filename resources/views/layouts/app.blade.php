@@ -15,13 +15,16 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+        {{-- <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -70,9 +73,50 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> --}}
 
-        <main class="py-4">
+        <div class="menu-interno">
+            @if (Route::has('login'))
+                <div class="row row-simples">
+                    <div class="col-md-2 links w-100 position-menu-left logo" style="text-align: center;">
+                        <a class="sliding-middle-out item-menu" style="font-size: 31pt;text-transform: initial;" href="{{ url('/home') }}">(='X'=)</a>
+                    </div>
+                    <div class="col-md-8 links w-100 position-menu-left menu-item">
+                        <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                        <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                        <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                        <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                        <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                        <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                        <a class="sliding-middle-out item-menu" href="{{ url('/home') }}">TEsteLogo</a>
+                    </div>
+                    <div class="col-md-2 links w-100 position-menu-left dropdown-menu-item">
+                        <div class="btn-group" role="group">
+                            <button id="user-id-button" type="button" class="btn btn-secondary dropdown-toggle especial-button-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="{{Gravatar::get(Auth::user()->email)}}" class="m--img-rounded m--marginless user-pic" alt=""/>
+                                <span class="user-details menu-item">
+                                    {{ Auth::user()->name }}
+                                </span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="user-id-button">
+                                <a class="dropdown-item" href="#">Configurações</a>
+                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+                                    {{ __('Sair') }}
+                                </a>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    @csrf
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endif
+        </div>
+
+
+        <main class="py-4 content">
             @yield('content')
         </main>
     </div>
