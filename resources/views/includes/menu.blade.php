@@ -9,7 +9,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto" >
                     <li class="nav-item nav-link active">
-                        <a class="nav-link" href="{{ url('/home') }}">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url('/home') }}">
+                            <i class="fas fa-home"></i>
+                            Home 
+                        </a>
                     </li>
                     <li class="nav-item nav-link ">
                         <a class="nav-link" href="#">Link1</a>

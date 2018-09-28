@@ -145,24 +145,9 @@
     box-shadow: 3px 4px 5px 0px #000;
 }
 
-/*.menu.sliding-middle-out {
-    display: inline-block;
-    position: relative;
-    padding-bottom: 3px;
+footer .links > a {
+    color: #333;
 }
-.menu.sliding-middle-out:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 2px;
-    width: 0px;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-}
-.menu.sliding-middle-out:hover:after {
-    width: 100%;
-    background: #fff;
-}*/
 
 .user-pic{
     border-radius: 60px;
