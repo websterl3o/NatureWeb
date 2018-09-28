@@ -15,10 +15,13 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
-    {{-- <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> --}}
+    
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/open-iconic-master/font/css/open-iconic-bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/open-iconic-master/font/css/open-iconic.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/fontawesome/css/all.css') }}" rel="stylesheet">
 
 </head>
 <body>

@@ -34,6 +34,12 @@
     background: url(/img/bg-texture-00.svg);
 }
 
+.img-bg.textura-de-pontos.fixo-top {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
 .fixo-topo{
     position: fixed;top: 0px;z-index: 0;
 }
@@ -353,6 +359,13 @@ a.item-menu{
     margin: 0 20px;
 }
 
+.menu.menu-dark .dropdown-menu.show {
+    top: 97%;
+    width: 100%;
+    border-radius: 0px;
+    line-height: 1.6;
+}
+
 .col-simples nav.nav.nav-pills.nav-fill {
     line-height: 1.6;
 }
@@ -360,4 +373,10 @@ a.item-menu{
 .menu.menu-dark .navbar .btn-group button {
     border-radius: 0px;
     padding: 10px 22px;
+}
+
+/*icon*/
+
+.oi,.fa, .fas  {
+    padding: 5px;
 }

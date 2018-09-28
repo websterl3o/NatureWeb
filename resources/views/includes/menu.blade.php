@@ -51,10 +51,14 @@
                         </span>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="user-id-button">
-                        <a class="dropdown-item" href="#">Configurações</a>
+                        <a class="dropdown-item" href="#">
+                            <span class="oi oi-cog"></span>
+                            Configurações
+                        </a>
                         <a class="dropdown-item" href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                          document.getElementById('logout-form').submit();">
+                            <span class="oi oi-account-logout"></span> 
                             {{ __('Sair') }}
                         </a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -66,13 +70,22 @@
         @else
             <ul class="navbar-nav mr-auto justify-content-end">
                 <li class="nav-item nav-link active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-home"></i>
+                        Home 
+                    </a>
                 </li>
                 <li class="nav-item nav-link">
-                    <a class="nav-link" href="{{ route('login') }}">Login</a>
+                    <a class="nav-link" href="{{ route('login') }}">
+                        <i class="fas fa-user-alt" style=""></i>
+                        Login
+                    </a>
                 </li>
                 <li class="nav-item nav-link">
-                    <a class="nav-link" href="{{ route('register') }}">Registro</a>
+                    <a class="nav-link" href="{{ route('register') }}">
+                        <i class="fas fa-user-plus"></i>
+                        Novo Registro
+                    </a>
                 </li>
             </ul>
         @endauth

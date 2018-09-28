@@ -5,7 +5,16 @@
 <div class="box-auth">
     <div class="box-auth-head">
         <div class="box-auth-head-caption-title">
-            <h3 class="box-auth-head-caption-title-h3">Login</h3>
+            <h3 class="box-auth-head-caption-title-h3">
+                <span class="oi" data-glyph="account-login"></span>
+                Login
+            </h3>
+        </div>
+        <div class="box-auth-head-caption-title float-left">
+            <a href="{{ route('register') }}" class="btn btn-success">
+                <i class="fas fa-user-plus"></i>
+                Registrar-se
+            </a>
         </div>
     </div>
     <div class="box-auth-body">
