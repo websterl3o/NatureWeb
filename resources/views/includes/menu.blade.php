@@ -72,12 +72,6 @@
             </div>
         @else
             <ul class="navbar-nav mr-auto justify-content-end">
-                <li class="nav-item nav-link active">
-                    <a class="nav-link" href="#">
-                        <i class="fas fa-home"></i>
-                        Home 
-                    </a>
-                </li>
                 <li class="nav-item nav-link">
                     <a class="nav-link" href="{{ route('login') }}">
                         <i class="fas fa-user-alt" style=""></i>
