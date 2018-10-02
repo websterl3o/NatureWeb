@@ -3,10 +3,16 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
+        <div class="col-md-12">
+            <div class="card-especial">
+                <div class="card-especial-header">
+                    <div  class="card-especial-header-caption">
+                        <h3>
+                            <span class="oi oi-cog"></span>
+                            Configurações
+                        </h3>
+                    </div>
+                </div>
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
@@ -21,7 +27,3 @@
     </div>
 </div>
 @endsection
-
-@push('scripts')
-
-@endpush

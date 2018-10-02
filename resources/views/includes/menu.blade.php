@@ -8,13 +8,13 @@
         @auth
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto" >
-                    <li class="nav-item nav-link active">
+                    <li class="nav-item nav-link" menuitem="home">
                         <a class="nav-link" href="{{ url('/home') }}">
                             <i class="fas fa-home"></i>
                             Home 
                         </a>
                     </li>
-                    <li class="nav-item nav-link ">
+                    <li class="nav-item nav-link menuitem="Link1"">
                         <a class="nav-link" href="#">Link1</a>
                     </li>
                     <li class="nav-item nav-link  dropdown">
@@ -54,7 +54,7 @@
                         </span>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="user-id-button">
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="{{ route('configUser') }}">
                             <span class="oi oi-cog"></span>
                             Configurações
                         </a>
